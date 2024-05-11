@@ -1,0 +1,142 @@
+@import url('htttps;//fonts.googleapis.com/css?faily=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 50;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffad77;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);       
+}
+
+img {
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-width: 5px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+
+}
+
+pre {
+    margin-top: 20px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+
+
+}
+
+section {
+    text-align: left;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+
+#experience p {
+    font-size: large;
+}
+
+#about p {
+    font-style: italic;
+}
+
+
+@media screen and (max-width:823px) {
+    .header::after {
+        width: 40%;
+    }    
+}
+
+@media only screen and (min-width: 600px) {
+    /* Tablet */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1280px) {
+    /* Desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+    /* Mobile */
+[class*="col-"] {
+    width: 100%;
+    height: auto;
+}
+
